@@ -1,9 +1,9 @@
 ```
-제목: Heap Sort
+Title: Heap Sort
 
-작성일: 2026.02.04
-작성자: 최한영
-분류: 정렬 알고리즘
+Date: 2026.02.04
+Author: 최한영
+Category: 정렬 알고리즘
 ```
 
 ## 개념
