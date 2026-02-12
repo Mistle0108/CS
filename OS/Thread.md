@@ -1,5 +1,5 @@
 ```
-Title: Merge Sort
+Title: Thread
 
 Date: 2026.02.04
 Author: 최한영
