@@ -304,7 +304,7 @@ while (true){
 ## Hardware Support for Synchronization
 임계구역 문제를 해결하기 위해 운영체제와 시스템 설계에서는 하드웨어 기반 해결방법을 사용하기도 하는데 하드웨어가 직접 제공하는 명령어와 기능을 이용해 상호 배제와 동기화를 보장하는 방식이다. 하드웨어 지원 기능은 그 자체로도 동기화 도구로 사용될 수 있으며 세마포어나 뮤텍스와 같은 보다 추상적인 동기화 메커니즘을 구현하는 기반이 된다.
 
-- Memory Narriers or Fences: 명령어 재정렬을 방지하여 메모리 연산이 의도한 순서대로 수행되도록 보장한다.
+- Memory Barriers or Fences: 명령어 재정렬을 방지하여 메모리 연산이 의도한 순서대로 수행되도록 보장한다.
 
 - Hardware Instructions: Test-and-Set이나 Compare-and-Swap과 같이 하나의 연산을 원자적으로 수행하여 여러 프로세스가 동시에 공유 변수에 접근하더라도 충돌이 발생하지 않도록 한다.
 
